@@ -209,7 +209,7 @@ public class Main {
         bcNode node2 = new bcNode(82, blockchain.chain); //Is a shared OBJECT
         printColors("CYAN", "After original Blockchain");
 
-        String myIPaddress = "192.168.1.164";
+        String myIPaddress = "127.0.0.1";
 
         System.out.println("Enter 1 to add block");
         Scanner scanner = new Scanner(System.in);
