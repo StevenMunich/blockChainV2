@@ -103,7 +103,7 @@ class Blockchain {
             System.out.println("No transactions to mine!");
             return;
         }
-
+        // you can add if (pendingTransactions > BLOCK_LENGTH_LIMIT) {...create new block then add to the chain...clean up...etc)
         Block prevBlock = chain.get(chain.size() - 1);
         Block newBlock = new Block(chain.size(), pendingTransactions.toString(), pendingTransactions, prevBlock.hash);
 
