@@ -6,17 +6,20 @@ Functional:
 1FA Agreement
 • 	All honest nodes shall agree on the same block to add to the chain.
 • 	The entire network shall prevent forks and ensures a single source of truth.
+
 2FA Integrity
 • 	Malicious actors shall not be able to forge or alter transactions. - Immutability
 • 	The algorithm must resist tampering and double-spending. 
           - this one needs to be written in more detailed: 1. hashes at merkle root shall match, if not...a node(s) have been tampered with. Will not be detected if 51% are tampered.
                                                            2. a Timestamp can be forged,
 • 	The algorithm shall synchronize nodes - Page 195 
+
 3FA Liveness
 • 	The system shall continiously  add blocks.
 • 	Shall not have any indefinite delays, or deadlocks in reaching consensus.
 - Shall be in a timely manner understandable to the users.
 - Shall have a reset timer if consensus is not met in MAX_TIME or interval
+  
 4FA Fairness
 • 	Malicious actors shall not be able to divert others to steal rewards. - Selfish Miners
 • 	Every node shall have a fair chance to participate in consensus.
