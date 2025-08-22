@@ -84,6 +84,3 @@ Use case may determine whether network is private or public blockchain. Public b
 
 
  Will the blockchain be involved or utilize other technology such as: ML, IoT, Big Data(5 V's: Filecoin is a good example)
-
-
- -
